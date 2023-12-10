@@ -4,16 +4,17 @@
 
 ## Description
 
-_This website will allow users to order any type of pizza, choose their toppings, the size they want and it will calculate how much it will cost._
+_This pizza website will allow users to order any type of pizza, choose their toppings, the size they want and it will calculate how much it will cost at the end._
 
 ## Tests
 
 ```
 //Business Logic:
-
 Describe: Pizza();
 
-
+Test: "This program will return the price of a small size pizza with one topping"
+Code: Cheese and Small Size
+Expected: ["$13]
 ```
 
 ## Technologies Used
