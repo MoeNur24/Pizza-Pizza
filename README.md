@@ -10,7 +10,7 @@ _This pizza website will allow people to order any type of pizza, choose their t
 
 ```
 //Business Logic:
-Describe: Pizza();
+Describe: YummyPizza();
 
 Test: "This program will return the price of a small size pizza with one topping"
 Code: Cheese and Small Size
