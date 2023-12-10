@@ -1,10 +1,10 @@
-# Mr. Nur's Neighborhood
+# Mr. Nur's Pizza Pizza Website
 
 #### By _**Mohamed Nur**_
 
 ## Description
 
-_This pizza website will allow users to order any type of pizza, choose their toppings, the size they want and it will calculate how much it will cost at the end._
+_This pizza website will allow people to order any type of pizza, choose their toppings, the size they want and it will calculate how much it will cost at the end._
 
 ## Tests
 
