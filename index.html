@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <form id="formUno"></form>
+        <form id="formUno">
         <h2>Best Pizza Wesbsite</h2>
         <div class="form-group">
         <label for="toppings">Pick Your Toppings</label>
@@ -20,7 +20,19 @@
         <option value="4">Cheese-Chicken-Pineapple-Jalapeño-</option>
         </select>
         </div>
-        
+        <div class="form-group">
+            <label for="size">Pick Your Pizza Size</label>
+            <select class="form-control" id="size">
+                <option value="1">Small</option>
+                <option value="2">Medium</option>
+                <option value="3">Large</option>
+            </select>
+        </div>
+        <button type="submit" class="btn-dark">Your Price Is:</button>
+    </form>
+    <div id="output">
+        <p>Pizza Prize <span id="pizza-cost"> $ </span> </p>
+    </div>
     </div>
 </body>
 </html>
