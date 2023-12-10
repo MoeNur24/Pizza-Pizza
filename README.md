@@ -14,7 +14,11 @@ Describe: Pizza();
 
 Test: "This program will return the price of a small size pizza with one topping"
 Code: Cheese and Small Size
-Expected: ["$13]
+Expected: ["$13"]
+
+Test: "This program will return the price of a small siza pizza with two toppings"
+Code: Chicken-Pineapple and Small Size
+Expected: ["$16"]
 ```
 
 ## Technologies Used
