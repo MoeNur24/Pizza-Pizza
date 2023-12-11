@@ -1,9 +1,7 @@
-function YummyPizza(firstTopping, secondTopping, thirdTopping, fourthTopping) {
-    this.firstTopping = firstTopping;
-    this.secondTopping = secondTopping;
-    this.thirdTopping = thirdTopping;
-    this.fourthTopping = fourthTopping;
-    this.cost = 17; 
+function YummyPizza(topping, size) {
+    this.topping = topping,
+    this.size = size;
+    this.cost = 20;
 }
 
 YummyPizza.prototype.pizzaCost = function() {
