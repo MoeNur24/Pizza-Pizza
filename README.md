@@ -10,15 +10,23 @@ _This pizza website will allow people to order any type of pizza, choose their t
 
 ```
 //Business Logic:
-Describe: YummyPizza();
+Describe: Pizza();
 
 Test: "This program will return the price of a small size pizza with one topping"
 Code: Cheese and Small Size
 Expected: ["$13"]
 
 Test: "This program will return the price of a small siza pizza with two toppings"
-Code: Chicken-Pineapple and Small Size
+Code: Cheese-Chicken and Small Size
 Expected: ["$16"]
+
+Test: "This program will return the price of medium pizza with three toppings"
+Code: Cheese-Chicken-Pineapple and Medium Size
+Expected: ["$19"]
+
+Test: "This program will return the price of a large pizza with four toppings"
+Code: Cheese-Chicken-Pineapple-Jalapeño and Large Size
+Expected: ["$22"]
 ```
 
 ## Technologies Used

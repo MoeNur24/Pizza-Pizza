@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/scripts.js"></script>
@@ -7,32 +8,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Pizza</title>
 </head>
+
 <body>
     <div class="container">
         <form id="formUno">
-        <h2>Best Pizza Website</h2>
-        <div class="form-group">
-        <label for="topping">Pick Your Toppings</label>
-        <select class="form-control" id="topping">
-        <option value="1">Cheese</option>
-        <option value="2">Cheese-Chicken</option>
-        <option value="3">Cheese-Chicken-Pineapple</option>
-        <option value="4">Cheese-Chicken-Pineapple-Jalapeño-</option>
-        </select>
+            <h2>Best Pizza Website</h2>
+            <div class="form-group">
+                <label for="topping">Pick Your Toppings</label>
+                <select class="form-control" id="topping">
+                    <option value="1">Cheese</option>
+                    <option value="2">Cheese-Chicken</option>
+                    <option value="3">Cheese-Chicken-Pineapple</option>
+                    <option value="4">Cheese-Chicken-Pineapple-Jalapeño-</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="size">Pick Your Pizza Size</label>
+                <select class="form-control" id="size">
+                    <option value="1">Small</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Large</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-dark">Calculate Price</button>
+        </form>
+        <div id="output">
+            <p>Pizza Price: <span id="pizza-cost">$</span></p>
         </div>
-        <div class="form-group">
-            <label for="size">Pick Your Pizza Size</label>
-            <select class="form-control" id="size">
-                <option value="1">Small</option>
-                <option value="2">Medium</option>
-                <option value="3">Large</option>
-            </select>
-        </div>
-        <button type="submit" class="btn-dark">Calculate Price</button>
-    </form>
-    <div id="output">
-        <p>Pizza Price: <span id="pizza-cost">$</span></p>
-    </div>
     </div>
 </body>
+
 </html>
