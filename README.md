@@ -1,4 +1,4 @@
-# Mr. Nur's Pizza Pizza Website
+# Pizza Pizza Website
 
 #### By _**Mohamed Nur**_
 
