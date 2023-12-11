@@ -16,7 +16,7 @@ Pizza.prototype.pizzaCost = function() {
     }
 
     return this.cost;
-}
+};
 
 //UI Logic
 document.addEventListener("DOMContentLoaded", function() {
@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
       const inputtedTopping = parseInt(document.getElementById("topping").value);
       const inputtedSize = parseInt(document.getElementById("size").value);
       let newPizza = new Pizza(inputtedTopping, inputtedSize);
-      document.getElementById("pizza-cost").textContent = newPizza.pizzaCost();
+      document.getElementById("pizza-cost").textContent = "$" + newPizza.pizzaCost();
       document.getElementById("output").style.display = "block";
       formUno.style.display = "none";
-      document.getElementById("pizza-cost").style.display = "block";
+      document.getElementById("pizza-cost").style.display = "inline";
     });
 });
