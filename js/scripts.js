@@ -1,9 +1,9 @@
+//Business Logic
 function YummyPizza(topping, size) {
     this.topping = topping,
     this.size = size;
     this.cost = 10;
 }
-
 YummyPizza.prototype.pizzaCost = function() {
     if ((this.topping + this.size) ==2) {
         this.cost = 13;
@@ -17,3 +17,12 @@ YummyPizza.prototype.pizzaCost = function() {
 
     return this.cost;
 }
+
+//UI Logic
+document.addEventListener("DOMContentLoaded", function() {
+    const formUno = document.getElementById("formUno");
+    formOne.addEventListener("submit", function(event) {
+      event.preventDefault();
+    
+    });
+  });
