@@ -1,0 +1,23 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 33px;
+    text-align: center;
+}
+
+
+form {
+    margin-top: 22px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #db1515;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #9b1313;
+}
