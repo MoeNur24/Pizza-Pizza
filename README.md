@@ -28,7 +28,8 @@ let price = mediumPizzaThreeToppings.calculatePrice();
 Expected Output: ["$19"]
 
 Test: "This program will return the price of a large pizza with four toppings"
-Code: Cheese-Chicken-Pineapple-Jalapeño and Large Size
+Code: let largePizzaFourToppings = new Pizza("large", ["cheese", "chicken", "pineapple", "jalapeño"]);
+let price = largePizzaFourToppings.calculatePrice();
 Expected Output: ["$22"]
 ```
 
