@@ -12,7 +12,7 @@ _This pizza website will allow people to order any type of pizza, choose their t
 //Business Logic:
 Describe: Pizza();
 
-Test: "This program will return the price of a small size pizza with one topping"
+Test: 
 Code: Cheese and Small Size
 Expected: ["$13"]
 
