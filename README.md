@@ -12,22 +12,23 @@ _This pizza website will allow people to order any type of pizza, choose their t
 //Business Logic:
 Describe: Pizza();
 
-Test: "This program will return the price of small size pizza with on topping"
+Test: "This program will return the price of small size pizza with one topping"
 Code: let smallPizzaOneTopping = new Pizza("small", ["cheese"]);
 let price = smallPizzaOneTopping.calculatePrice();
-Expected: ["$13"]
+Expected Output: ["$13"]
 
 Test: "This program will return the price of a small siza pizza with two toppings"
-Code: Cheese-Chicken and Small Size
-Expected: ["$16"]
+Code: let smallPizzaTwoToppings = new Pizza("small", ["cheese", "chicken"]);
+let price = smallPizzaTwoToppings.calculatePrice();
+Expected Output: ["$16"]
 
 Test: "This program will return the price of medium pizza with three toppings"
 Code: Cheese-Chicken-Pineapple and Medium Size
-Expected: ["$19"]
+Expected Output: ["$19"]
 
 Test: "This program will return the price of a large pizza with four toppings"
 Code: Cheese-Chicken-Pineapple-Jalapeño and Large Size
-Expected: ["$22"]
+Expected Output: ["$22"]
 ```
 
 ## Technologies Used
