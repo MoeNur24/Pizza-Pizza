@@ -10,27 +10,33 @@ _This pizza website will allow people to order any type of pizza, choose their t
 
 ```
 //Business Logic:
-Describe: Pizza(); 
-          pizzaCost()
 
+Describe: Pizza()
+
+Test: "It will create a Pizza Object"
+Code: let smallPizzaOneTopping = new Pizza( ["cheese"], "small");
+Expected Output: Undefined
+
+Describe: pizzaCost() 
+ 
 Test: "This program will return the price of small size pizza with one topping"
-Code: let smallPizzaOneTopping = new Pizza("small", ["cheese"]);
-let price = smallPizzaOneTopping.calculatePrice();
+Code: let smallPizzaOneTopping = new Pizza( ["cheese"], "small");
+Code: let price = smallPizzaOneTopping.pizzaCost();
 Expected Output: ["$13"]
 
 Test: "This program will return the price of a small siza pizza with two toppings"
-Code: let smallPizzaTwoToppings = new Pizza("small", ["cheese", "chicken"]);
-let price = smallPizzaTwoToppings.calculatePrice();
+Code: let smallPizzaTwoToppings = new Pizza(["cheese", "chicken"], "small" );
+Code: let price = smallPizzaTwoToppings.pizzaCost();
 Expected Output: ["$16"]
 
 Test: "This program will return the price of medium pizza with three toppings"
-Code: let mediumPizzaThreeToppings = new Pizza("medium", ["cheese", "chicken", "pineapple"]);
-let price = mediumPizzaThreeToppings.calculatePrice();
+Code: let mediumPizzaThreeToppings = new Pizza(["cheese", "chicken", "pineapple"], "medium");
+Code: let price = mediumPizzaThreeToppings.pizzaCost();
 Expected Output: ["$19"]
 
 Test: "This program will return the price of a large pizza with four toppings"
-Code: let largePizzaFourToppings = new Pizza("large", ["cheese", "chicken", "pineapple", "jalapeño"]);
-let price = largePizzaFourToppings.calculatePrice();
+Code: let largePizzaFourToppings = new Pizza(["cheese", "chicken", "pineapple", "jalapeño"], "large");
+Code: let price = largePizzaFourToppings.pizzaCost();
 Expected Output: ["$22"]
 ```
 
