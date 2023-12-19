@@ -10,7 +10,8 @@ _This pizza website will allow people to order any type of pizza, choose their t
 
 ```
 //Business Logic:
-Describe: Pizza();
+Describe: Pizza(); 
+          pizzaCost()
 
 Test: "This program will return the price of small size pizza with one topping"
 Code: let smallPizzaOneTopping = new Pizza("small", ["cheese"]);
